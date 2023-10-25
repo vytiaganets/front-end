@@ -26,18 +26,18 @@
   border: 5px solid yellow;
 }
 
-a {
+/* a {
   margin: 50px;
-  /* display
+   display
   inline=строчный
-  block=блочный */
+  block=блочный 
   display: inline;
   color: lightgreen;
   font-size: 32px;
   border: 3px solid black;
-/* скругление углов рамки */
+ скругление углов рамки 
   border-radius: 5px;
-}
+} */
 
 .post_block{
   padding: 15px;
@@ -47,4 +47,16 @@ a {
   /* 10px -> сверху и снизу внешний отступ
   auto автоматическкие отступы по бокам */
   margin: 10px auto;
+}
+
+.post_block img {
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+
+#s1, #s2, #s3{
+  width: 50px;
+  height: 50px;
 }
